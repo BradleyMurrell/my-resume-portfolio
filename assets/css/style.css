@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #eee;
+    background-color: #444444;
 }
 
 .btn {
@@ -19,7 +19,7 @@ body {
     height: 37px;
     width: 37px;
     text-align: center;
-    background: #1b1b1b;
+    background: #04C4D9;
     border-radius: 3px;
     cursor: pointer;
     transition: left 0.4s ease;
@@ -29,22 +29,12 @@ body {
     left: 260px;
 }
 
-.btn span {
-    color: white;
-    font-size: 15px;
-    line-height: 36px;
-}
-
-.btn.click span:before {
-    content: '\f00d';
-}
-
 .sidebar {
     position: fixed;
     width: 250px;
     height: 100%;
     left: -250px;
-    background: #1b1b1b;
+    background: #343434;
     transition: left 0.4s ease;
 }
 
@@ -92,9 +82,9 @@ nav ul li a {
 }
 
 nav ul li.active a {
-    color: #FC5404;
+    color: #04C4D9;
     background: #1e1e1e;
-    border-left-color: #FC5404;
+    border-left-color: #04C4D9;
 }
 
 nav ul li a:hover {
@@ -137,12 +127,12 @@ nav ul li.active ul li a {
 }
 
 a:hover {
-    color: #FC5404 !important;
+    color: #04C4D9 !important;
 }
 
 nav ul ul li a:hover {
-    color: #FC5404 !important;
-    background: #1e1e1e !important;
+    color: #04C4D9 !important;
+    background: #343434 !important;
 }
 
 nav ul li a span {
@@ -162,4 +152,10 @@ nav ul li a span {
     color: #202020;
     z-index: -1;
     text-align: center;
+}
+
+@media (min-width: 1400px) {
+    .sidebar {
+        left: 0;
+    }
 }
