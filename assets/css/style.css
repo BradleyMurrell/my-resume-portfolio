@@ -12,6 +12,13 @@ body {
     background-color: #444444;
 }
 
+.highlight {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #04C4D9;
+}
+
+/* Navbar */
+
 .btn {
     position: absolute;
     top: 10px;
@@ -144,15 +151,46 @@ nav ul li a span {
     transition: transform 0.4s;
 }
 
+/* Main Content */
+
 .content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #202020;
+    color: #D9D9D9;
     z-index: -1;
-    text-align: center;
+    text-align: left;
 }
+
+/* About Me */
+
+.header h1 {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-weight: 900;
+}
+
+.subheading {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+/* Experience */
+
+
+
+/* Education */
+
+
+
+/* Skills */
+
+
+
+/* Media Query */
 
 @media (min-width: 1400px) {
     .sidebar {
