@@ -188,11 +188,11 @@ p {
     font-size: larger;
 }
 
-.container ul{
+.social-icon ul{
     display:flex;
 }
 
-.container ul li{
+.social-icon ul li{
     list-style:none;
     margin:5px;
     height:50px;
@@ -208,7 +208,7 @@ p {
     transition:all 1s;
 }
 
-.container ul li:hover{
+.social-icon ul li:hover{
     border-radius:5px;
     
    
